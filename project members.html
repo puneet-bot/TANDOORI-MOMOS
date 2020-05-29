@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<head>
+  <link rel="icon" type="image/jpeg"  href="./images/icon.jpeg" >
+  
+  <link rel="stylesheet"type="text/css"href="project.css">
+  <!-- the bootstrap part -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                // Show hide popover
+                $(".dropdown").click(function(){
+                    $(this).find(".dropdown-menu").slideToggle("fast");
+                });
+            });
+    $(document).on("click", function(event){
+        var $trigger = $(".dropdown");
+        if($trigger !== event.target && !$trigger.has(event.target).length){
+            $(".dropdown-menu").slideUp("fast");
+        }            
+    });
+    </script>
+        
+    </head>
+    <body>
+<!-- the site name  -->
+        <div id="heading">
+        <span>COVID-19</span>
+        </div>
+<!-- the navigation section having different sections  -->
+       
+<nav class="navbar navbar-expand-lg navbar-light ">
+
+
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+             </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link"  href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/project.html">
+                    Home<span class="sr-only">(current)</span>
+                  </a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/project%20submit.html">Latest News<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/Blog.html">Blog<span class="sr-only">(current)</span></a>
+                  </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/gallery.html">Gallery <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/cases.html">Cases<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        COVID
+                      </a>
+                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/dropdown1.html">CORONA VIRUS!</a>
+                                    <a class="dropdown-item" href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/dropdown-2.html">Prevention</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/dropdown-3.html">Symptoms</a>
+                                  </div>
+                    </li>
+
+                    <li class="nav-item active">
+                      <a class="nav-link " href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/project%20contact.html">Contact <span class="sr-only">(current)</span></a>
+                    </li>
+                    
+                  <li class="nav-item active">
+                    <a class="nav-link" href="file:///G:/web%20devlopment/ninjathon%20project/ninjathon%20project/team7/project%20members.html">Members <span class="sr-only">(current)</span></a>
+                  </li>
+      </ul>
+  </div>
+</nav>
+
+
+
+
+
+
+<section id="experience">
+
+            <h1 class="section-heading mb75px">
+                <span>
+                    <i class="fas fa-briefcase"></i>
+                </span>
+                <span> Mebers </span>
+            </h1>
+
+     
+     
+     
+            <div class="timeline">
+                 <div class="timeline-box ">
+                    <div class="timeline-container">
+                         <div class="card" style="width: 18rem;">
+                                  <section class="front">
+                                        <img class="card-img-top red" src="tanya jha.jpeg" alt="Card image cap">
+                                 </section>
+                                          <section class="back">
+                                                  <div style="width: 20rem;">
+                                                  <div class="card-body">
+                                                    <h5 class="card-title green">TANYA JHA</h5>
+                                                    <h6 class="card-subtitle mb-2 text-muted yellow">SOFTWARE ENGINEER</h6>
+                                                    <p class="card-text blue">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.
+                                                      Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                    <a href="#" class="card-link btn btn-ghost">LINKED IN.</a>
+                                                    <a href="#" class="card-link btn btn-ghost">FACEBOOK.</a>
+                                                  </div>
+                                                </div>
+                                 </section>
+                            </div>
+
+                         </div>        
+                    </div>
+                 <div class="timeline-box ">
+                    <div class="timeline-container">
+                         <div class="card" style="width: 18rem;">
+                                  <section class="front">
+                                        <img class="card-img-top red" src="shivangi tiwari.jpeg" alt="Card image cap">
+                                 </section>
+                                          <section class="back">
+                                                  <div style="width: 20rem;">
+                                                  <div class="card-body">
+                                                    <h5 class="card-title green">SHIVANGI TIWARI</h5>
+                                                    <h6 class="card-subtitle mb-2 text-muted yellow">SOFTWARE ENGINEER</h6>
+                                                    <p class="card-text blue">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.
+                                                      Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                    <a href="#" class="card-link btn btn-ghost">LINKED IN.</a>
+                                                    <a href="#" class="card-link btn btn-ghost">FACEBOOK.</a>
+                                                  </div>
+                                                </div>
+                                 </section>
+                            </div>
+
+                                 
+                    </div>
+                </div>
+                
+                 <div class="timeline-box ">
+                    <div class="timeline-container">
+                         <div class="card" style="width: 18rem;">
+                                  <section class="front">
+                                        <img class="card-img-top red" src="Ayush.jpeg" alt="Card image cap">
+                                 </section>
+                                          <section class="back">
+                                                  <div style="width: 20rem;">
+                                                  <div class="card-body">
+                                                    <h5 class="card-title green">AYUSH SINGHLA</h5>
+                                                    <h6 class="card-subtitle mb-2 text-muted yellow">SOFTWARE ENGINEER</h6>
+                                                    <p class="card-text blue">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.
+                                                      Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                    <a href="#" class="card-link btn btn-ghost">LINKED IN.</a>
+                                                    <a href="#" class="card-link btn btn-ghost">FACEBOOK.</a>
+                                                  </div>
+                                                </div>
+                                 </section>
+                            </div>
+
+                                 
+                    </div>
+                </div>
+                 <div class="timeline-box ">
+                    <div class="timeline-container">
+                         <div class="card" style="width: 18rem;">
+                                  <section class="front">
+                                        <img class="card-img-top red" src="chanderesh singh.jpeg" alt="Card image cap">
+                                 </section>
+                                          <section class="back">
+                                                  <div style="width: 20rem;">
+                                                  <div class="card-body">
+                                                    <h5 class="card-title green">CHANDERESH SINGH</h5>
+                                                    <h6 class="card-subtitle mb-2 text-muted yellow">SOFTWARE ENGINEER</h6>
+                                                    <p class="card-text blue">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.
+                                                      Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                    <a href="#" class="card-link btn btn-ghost">LINKED IN.</a>
+                                                    <a href="#" class="card-link btn btn-ghost">FACEBOOK.</a>
+                                                  </div>
+                                                </div>
+                                 </section>
+                            </div>
+
+                                 
+                    </div>
+                </div>
+                 <div class="timeline-box ">
+                    <div class="timeline-container">
+                         <div class="card" style="width: 18rem;">
+                                  <section class="front">
+                                        <img class="card-img-top red" src="shubham singla.jpeg" alt="Card image cap">
+                                 </section>
+                                          <section class="back">
+                                                  <div style="width: 20rem;">
+                                                  <div class="card-body">
+                                                    <h5 class="card-title green">SHUBHAM SINGLA</h5>
+                                                    <h6 class="card-subtitle mb-2 text-muted yellow">SOFTWARE ENGINEER</h6>
+                                                    <p class="card-text blue">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.
+                                                      Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                    <a href="#" class="card-link btn btn-ghost">LINKED IN.</a>
+                                                    <a href="#" class="card-link btn btn-ghost">FACEBOOK.</a>
+                                                  </div>
+                                                </div>
+                                 </section>
+                            </div>
+
+                                 
+                    </div>
+                </div>
+                                 <div class="timeline-box ">
+                    <div class="timeline-container">
+                         <div class="card" style="width: 18rem;">
+                                  <section class="front">
+                                        <img class="card-img-top red" src="sparsh.jpeg" alt="Card image cap">
+                                 </section>
+                                          <section class="back">
+                                                  <div style="width: 20rem;">
+                                                  <div class="card-body">
+                                                    <h5 class="card-title green">SPARSH</h5>
+                                                    <h6 class="card-subtitle mb-2 text-muted yellow">SOFTWARE ENGINEER</h6>
+                                                    <p class="card-text blue">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.
+                                                      Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                    <a href="#" class="card-link btn btn-ghost">LINKED IN.</a>
+                                                    <a href="#" class="card-link btn btn-ghost">FACEBOOK.</a>
+                                                  </div>
+                                                </div>
+                                 </section>
+                            </div>
+
+                                 
+                    </div>
+                </div>
+                 <div class="timeline-box ">
+                    <div class="timeline-container">
+                         <div class="card" style="width: 18rem;">
+                                  <section class="front">
+                                        <img class="card-img-top red" src="puneet.jpg" alt="Card image cap">
+                                 </section>
+                                          <section class="back">
+                                                  <div style="width: 20rem;">
+                                                  <div class="card-body">
+                                                    <h5 class="card-title green">PUNEET ARORA</h5>
+                                                    <h6 class="card-subtitle mb-2 text-muted yellow">SOFTWARE ENGINEER</h6>
+                                                    <p class="card-text blue">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.
+                                                      Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                    <a href="#" class="card-link btn btn-ghost">LINKED IN.</a>
+                                                    <a href="#" class="card-link btn btn-ghost">FACEBOOK.</a>
+                                                  </div>
+                                                </div>
+                                 </section>
+                            </div>
+
+                                 
+                    </div>
+                </div>
+                
+                
+                <div id="timeline-divider">
+                    <div class="timeline-traveller">
+                        <div>
+                            <i class="fas fa-plane"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                
+
+
+            </div>
+          </section>
+
+
+
+
+
+
+
+          <!-- Footer -->
+<footer class="page-footer font-small cyan darken-3">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!-- Grid row-->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-12 py-5">
+        <div class="mb-5 flex-center">
+
+          <!-- Facebook -->
+          <a class="fb-ic" align="center">
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic" align="center">
+            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Google +-->
+          <a class="gplus-ic" align="center">
+            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Linkedin -->
+          <a class="li-ic" align="center">
+            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic" align="center">
+            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Pinterest-->
+          <a class="pin-ic" align="center">
+            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+          </a>
+        </div>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+    </body>
+</html>
